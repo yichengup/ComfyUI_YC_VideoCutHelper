@@ -20,7 +20,7 @@ class SelectImages:
             }
     
     DESCRIPTION = select_description
-    CATEGORY = "SwiftCut/Image Tools"
+    CATEGORY = "YC_VideoCutHelper/Image Tools"
 
     RETURN_TYPES = ("IMAGE",)
     RETURN_NAMES = ("selected_images",)
@@ -81,7 +81,7 @@ Selection Mode:
 - every_nth: Select every N images
 - random: Select N images at random
     """
-    CATEGORY = "SwiftCut/Image Tools"
+    CATEGORY = "YC_VideoCutHelper/Image Tools"
 
     RETURN_TYPES = ("IMAGE", "STRING")
     RETURN_NAMES = ("selected_images", "selected_indexes")
